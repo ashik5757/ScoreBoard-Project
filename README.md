@@ -2,9 +2,6 @@
 
 This is a JavaFX application with mySql database.
 
-<br>
-  
-## Developments :
 
 <br>
 
@@ -83,7 +80,7 @@ If the program does not run and shows an error like following line, then update 
 
 <br>
 
-Go to the Run -> Edit Configurations... of FakeLauncher.java or LaunchApp.java and paste the following line in Add VM option from Modify option.
+Go to the Run -> Edit Configurations... of **FakeLauncher.java** or **LaunchApp.java** and paste the following line in _Add VM option_ from _Modify option_.
 
 ~~~
 --module-path
@@ -98,9 +95,18 @@ javafx.base/com.sun.javafx.event=ALL-UNNAMED
 
 <br>
 
-It is better to add VM option in run config to omit unnecessary error.
+It is better to add VM option in run config to omit unnecessary error :
 
     WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @4b7d8551'
+
+
+<br>
+  
+## Developments :
+
+- ### Md. Iftekhar Hossain Khan <img width="25px" src="https://user-images.githubusercontent.com/81816852/136294461-d4755e14-49e0-4929-b5e8-fd5d44b61427.png">
+- ### Nur Adnan Chowdhury Anik <img width="25px" src="https://user-images.githubusercontent.com/81816852/136294461-d4755e14-49e0-4929-b5e8-fd5d44b61427.png">
+- ### Md. Ashikur Rahoman <img width="25px" src="https://user-images.githubusercontent.com/81816852/136294461-d4755e14-49e0-4929-b5e8-fd5d44b61427.png">
 
 
 <br>
