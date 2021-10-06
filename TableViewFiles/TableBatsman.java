@@ -71,7 +71,7 @@ public class TableBatsman {
     public void setSixRun(String sixRun) {
         this.sixRun = sixRun;
     }
-
+ 
     public void setStrikeRate(String strikeRate) {
         this.strikeRate = strikeRate;
     }
