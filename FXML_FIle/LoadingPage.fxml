@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane fx:id="rootPane" prefHeight="770.0" prefWidth="680.0" style="-fx-background-color: linear-gradient(to right, #43c6ac, #191654);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_FIle.LoadingPageControl">
+   <children>
+      <ProgressBar fx:id="proggressbar" layoutX="241.0" layoutY="487.0" prefHeight="15.0" prefWidth="212.0" style="-fx-accent: #01baef;">
+         <effect>
+            <DropShadow />
+         </effect></ProgressBar>
+      <ImageView fitHeight="226.0" fitWidth="226.0" layoutX="215.0" layoutY="229.0">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.6178728342056274" green="0.9078947305679321" blue="0.8450566530227661" opacity="0.7799999713897705" />
+               </color>
+            </DropShadow>
+         </effect>
+         <image>
+            <Image url="@../../whiteball.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
