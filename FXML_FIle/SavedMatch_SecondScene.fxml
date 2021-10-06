@@ -12,6 +12,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="925.0" prefWidth="1500.0" style="-fx-background-color: linear-gradient(to right, #43c6ac, #191654);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_FIle.SavedMatch_SecondSceneControl">
     <children>
         <Label fx:id="lblSearchPlayer" alignment="CENTER" layoutX="884.0" layoutY="64.0" prefHeight="47.0" prefWidth="226.0" text="Search player name : " textFill="WHITE">
