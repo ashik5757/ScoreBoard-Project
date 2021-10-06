@@ -189,24 +189,140 @@ This is a JavaFX application with mySql database.
 > **Out Type :** There will 5 types of out which are Bowled, LBW, Run Out, Catch Out and Stamp. Out by player option will be only enable if out type is Run out, catch out or stamp out.
 
 
-- ### Update Out by player : 
+- ### _Update Out by player_ : 
 
 <p align="center" width="100%">
     <img src="https://user-images.githubusercontent.com/81816852/136248929-5da07d31-3d40-417e-b2e1-61ff3e3ce114.png">
 </p>
 
-> Update the player name who got the catch or stramped or throws the ball for run out.
+> Update the player name who got the catch or stamped or throws the ball for run out.
 
 <br>
 
 
 
+- ### _Update new batsman_ : 
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136276816-49ddc8f9-b73b-479a-94be-56314c98dce1.png">
+</p>
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136276845-d7356a29-557c-4e80-8611-95d9fada2276.png">
+</p>
+
+> User can select the next batsman and add the batsman to the scoreboard.
+
+<br>
 
 
+- ### _2nd Innings Confirmation_ :  
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136277140-f965bd6d-750c-4ff8-9003-1b7909f76470.png">
+</p>
+
+> After complete first innings, user will lose the access of the control panel and programme will force the user to go to next scene.
+
+<br>
+
+- ### _2nd Innings scoreboard_ : 
+
+  - Target
+  - RRR (Required Run Rate)
+  - Information about remaining run and ball
 
 
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136277537-251581b5-307f-4e65-9293-c8458d0b6aed.png">
+</p>
+
+<br>
 
 
+- ###	_Match End confirmation_: 
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136277812-55769bb7-65df-4c80-a3e1-ce03c6ab74f2.png">
+</p>
+
+> User will lose the access of control panel after completing 2nd innings and programme will force the user to go to homepage.
+
+<br>
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136277974-78ace886-3d91-4c40-9a56-251b3a207727.png">
+</p>
+
+> Also, the match info will be stored in database as two team names with date.
+
+<br>
 
 
+- ### _Saved Match_ :
+
+<p align="center" width="100%">
+    <img width="47%" src="https://user-images.githubusercontent.com/81816852/136278355-15c8fec7-9688-4c2c-b8ca-50aa0a65e394.png">
+    <img width="47%" src="https://user-images.githubusercontent.com/81816852/136278369-239bd9c6-c13d-415a-a71f-455606519e4c.png">
+</p>
+
+> In this option, user can select any saved match to see the all match data stored in the database.
+
+<br>
+
+- ### _Match Data from the Database_ : 
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136279403-2c7f91c8-8ad2-40ef-9293-62897a6b5191.png">
+</p>
+
+> After completing a match, 1st and 2nd innings match info will be stored in the database and in the saved match option, user can see all the match info of 1st and 2nd innings together.
+
+<br>
+
+
+- ### _Search option_ :
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136279590-6a5e1364-3099-479f-b961-35df6e3d5623.png">
+</p>
+
+> User can search any player by their name. Only searched player will be visible in the specific table if the searched name match with any player name. 
+
+<br>
+
+- ### WARNING :
+
+<br>
+
+> Same batsman selection warning :
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136280105-48d6a1bc-19da-44d2-a210-514b9c946722.png">
+</p>
+
+<br>
+
+> Same bowler selection warning :
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136280526-b5eca8cf-999e-4907-8ea6-e16315bcec39.png">
+</p>
+
+<br>
+
+> Click the submit button without select any option :
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136280545-b07bb965-aeb7-4eb6-b441-d8c5dda2b63f.png">
+    <img src="https://user-images.githubusercontent.com/81816852/136280559-bb53b4ee-c565-4290-b754-7e97f2c82193.png">
+</p>
+
+<br>
+
+> Empty text field Warning :
+
+<p align="center" width="100%">
+    <img src="https://user-images.githubusercontent.com/81816852/136280615-46fcdeb0-80e1-431e-a9bd-233a94899fae.png">
+</p>
 
