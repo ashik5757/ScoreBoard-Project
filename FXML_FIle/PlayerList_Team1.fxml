@@ -10,6 +10,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="750.0" style="-fx-background-color: linear-gradient(to right, #43c6ac, #191654);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_FIle.PlayerListTeam1Control">
    <children>
       <Label fx:id="teamOne" layoutX="142.0" layoutY="42.0" prefHeight="44.0" prefWidth="170.0" text="Team-1 Name:" textFill="WHITE">
