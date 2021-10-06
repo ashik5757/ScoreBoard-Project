@@ -13,6 +13,7 @@ This is a JavaFX application with mySql database.
 -	User can start a new match every time after finish a match.
 -	User can choose the number of overs.
 -	User can set the two team names and players name as well.
+-	AutoTextFill - team and player names will be suggested in textfield option.
 -	User can set the team which is going to bat first and also set the striker and non-striker.
 -	Live visualize of the scoreboard with control panel
 -	Update any type of run (by bat or Extra) by clicking button or by choose from the option
@@ -37,10 +38,73 @@ This is a JavaFX application with mySql database.
 
 <br>
 
-## Setup :
+## Setup (JAR) :
+
+- ### _Tools required_ :
+  - Java [JDK 8+]
+  - MySql database (XAMPP Recommended)
+
+<br>
+
+> Just download the latest jar file from release tag and run it by JVM. (Make sure mySql database is running in the background)
+
+<br>
+
+## Setup (IDE) :
+
+- ### _Tools required :_
+  - Java [JDK 16.0.1] or Latest 
+  - IntelliJ IDEA
+  - MySql database (XAMPP Recommended)
+
+<br>
+
+- ### _Download :_
+  - JavaFX (sdk-16 or Latest)
+  - JDBC (mysql-connector-java-8.0.26 or Latest)
+  - ControlFX (controlsfx-11.1.0 or Latest)
+
+> All the files are available in **_Config_** folder.
+
+<br>
+
+- ### _Process_ :
+
+  - Open new project in IntelliJ IDEA.
+  - Attach lib folder directory of javafx-sdk to Libraries in project structure.
+  - Attach **JDBC** and **ControlFX** jar file in module dependency in project structure.
+  - Put all the code files/folder in src folder. [ ClassFile, DatabaseFile, FXML_FIle, TableViewFiles, FakeLauncher.java, LaunchApp.java ]
+  - Put all the files of **_data_** folder outside of the src folder. (In main project directory)
+  - Now run the **FakeLauncher.java** or **LaunchApp.java**.
+
+If the program does not run and shows an error like following line, then update the VM option in run configuration.
+
+    Error: JavaFX runtime components are missing, and are required to run this application
+
+<br>
+
+Go to the Run -> Edit Configurations... of FakeLauncher.java or LaunchApp.java and paste the following line in Add VM option from Modify option.
+
+~~~
+--module-path
+"F:\Download\Soft\Java\JavaFx\javafx-sdk-16\lib"
+--add-modules
+javafx.controls,javafx.fxml
+--add-exports
+javafx.base/com.sun.javafx.event=ALL-UNNAMED
+~~~
+
+> NOTE : Must change the directory path for javafx-sdk-16\lib.
+
+<br>
+
+It is better to add VM option in run config to omit unnecessary error.
+
+    WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @4b7d8551'
 
 
 <br>
+
 
 ## Screenshot of Functionalities :
 
