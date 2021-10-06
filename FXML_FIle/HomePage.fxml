@@ -8,6 +8,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
+
 <AnchorPane prefHeight="770.0" prefWidth="680.0" style="-fx-background-color: linear-gradient(to right, #43c6ac, #191654);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_FIle.HomePageControl">
    <children>
       <Button fx:id="btNewMatch" alignment="CENTER" layoutX="201.0" layoutY="190.0" mnemonicParsing="false" onAction="#newMatch" prefHeight="101.0" prefWidth="303.0" style="-fx-background-color: white;" text="New Match">
