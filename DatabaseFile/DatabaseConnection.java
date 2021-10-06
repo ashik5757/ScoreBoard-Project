@@ -62,7 +62,7 @@ public class DatabaseConnection {
 
         String sql9 = "CREATE TABLE match_status (match_status varchar(400));";
 
-
+        
         PreparedStatement statement1 = connectDB.prepareStatement(sql1);
         PreparedStatement statement2 = connectDB.prepareStatement(sql2);
         PreparedStatement statement3 = connectDB.prepareStatement(sql3);
