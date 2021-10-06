@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(to right, #43c6ac, #191654);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_FIle.SetBatsman2Control">
+   <children>
+      <ComboBox fx:id="cbStriker" layoutX="461.0" layoutY="195.0" prefHeight="60.0" prefWidth="300.0" promptText="Select Striker" style="-fx-font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; -fx-background-color: white; -fx-font-style: italic; -fx-font-weight: bold; -fx-font-size: 16;">
+         <effect>
+            <DropShadow />
+         </effect></ComboBox>
+      <ComboBox fx:id="cbNonStriker" layoutX="461.0" layoutY="300.0" prefHeight="60.0" prefWidth="300.0" promptText="Select Non-Striker" style="-fx-font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; -fx-background-color: white; -fx-font-style: italic; -fx-font-weight: bold; -fx-font-size: 16;">
+         <effect>
+            <DropShadow />
+         </effect></ComboBox>
+      <Button fx:id="btStart" layoutX="682.0" layoutY="422.0" mnemonicParsing="false" onAction="#start" prefHeight="52.0" prefWidth="136.0" style="-fx-background-color: white;" text="Next">
+         <font>
+            <Font name="Candara Bold Italic" size="25.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.10588235408067703" green="0.1921568661928177" blue="0.501960813999176" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.05098039284348488" green="0.6705882549285889" blue="0.5176470875740051" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label fx:id="stricker" layoutX="158.0" layoutY="195.0" prefHeight="60.0" prefWidth="171.0" text="Striker :" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Candara Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="non_Stricker" layoutX="158.0" layoutY="300.0" prefHeight="60.0" prefWidth="171.0" text="Non-Striker :" textFill="WHITE">
+         <font>
+            <Font name="Candara Bold Italic" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
