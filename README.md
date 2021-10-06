@@ -68,6 +68,7 @@ This is a JavaFX application with mySql database.
 
 - ### _Process_ :
 
+  - Run MySql database. (XAMPP Recommended)
   - Open new project in IntelliJ IDEA.
   - Attach lib folder directory of javafx-sdk to Libraries in project structure.
   - Attach **JDBC** and **ControlFX** jar file in module dependency in project structure.
