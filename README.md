@@ -24,6 +24,7 @@ This is a JavaFX application with mySql database.
 -	User can view the saved match data in the database inside the application.
 -	User can search the player’s name in match info.
 
+
 <br>
 
 ## Tools Used :
