@@ -10,6 +10,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(to right, #43c6ac, #191654);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML_FIle.SetBatsman2Control">
    <children>
       <ComboBox fx:id="cbStriker" layoutX="461.0" layoutY="195.0" prefHeight="60.0" prefWidth="300.0" promptText="Select Striker" style="-fx-font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; -fx-background-color: white; -fx-font-style: italic; -fx-font-weight: bold; -fx-font-size: 16;">
