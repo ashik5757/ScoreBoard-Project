@@ -149,6 +149,7 @@ It is better to add VM option in run config to omit unnecessary error :
 
 - ### _Team and all player name_ : 
   -	User can input all the team and players names which will be use in further step.
+  -	Team names and player names will be suggested in textfield. (The new name will be saved in a text file and will use in the future)
   -	User don’t have to input anything in further step.
 
 <p align="center" width="100%">
