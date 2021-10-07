@@ -31,9 +31,10 @@ public class LaunchApp extends Application {
         loadingPageControl.setStage(primaryStage);
 
 
-        //Image icon = new Image("file:/F:/IntelliJ/Java/ScoreBoard Project/Final Logo.png");
-        Image icon = new Image(getClass().getResourceAsStream("/Final Logo.png"));
+        Image icon = new Image("file:Final Logo.png");                                                  // For IDE
+        //Image icon = new Image(getClass().getResourceAsStream("/Final Logo.png"));                      // For JAR
         createFile();
+
 
         primaryStage.getIcons().add(icon);
         primaryStage.setTitle("Cricket Live Scoreboard");
@@ -115,8 +116,6 @@ public class LaunchApp extends Application {
         //File databaseFile = new File("/ScoreBoard/data/AllTeamName.txt");
 
 
-
-
     }
 
 
@@ -134,10 +133,12 @@ public class LaunchApp extends Application {
 
     public ArrayList<String> getTeamList() throws IOException {
 
+
         ArrayList<String> list = new ArrayList<String>();
 
-        //InputStream in = new FileInputStream("AllTeamName.txt");
-        InputStream in = getClass().getResourceAsStream("/AllTeamName.txt");
+
+        InputStream in = new FileInputStream("AllTeamName.txt");                    // For IDE
+        //InputStream in = getClass().getResourceAsStream("/AllTeamName.txt");            // For JAR
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
 
 
@@ -159,8 +160,8 @@ public class LaunchApp extends Application {
 
         ArrayList<String> list = new ArrayList<String>();
 
-        //InputStream in = new FileInputStream("AllPlayerName.txt");
-        InputStream in = getClass().getResourceAsStream("/AllPlayerName.txt");
+        InputStream in = new FileInputStream("AllPlayerName.txt");                    // For IDE
+        //InputStream in = getClass().getResourceAsStream("/AllPlayerName.txt");            // For JAR
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
 
 
