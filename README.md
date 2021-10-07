@@ -72,8 +72,8 @@ This is a JavaFX application with mySql database. This application can be use in
   - Open new project in IntelliJ IDEA.
   - Attach lib folder directory of javafx-sdk to Libraries in project structure.
   - Attach **JDBC** and **ControlFX** jar file in module dependency in project structure.
-  - Put all the code files/folder in src folder. [ ClassFile, DatabaseFile, FXML_FIle, TableViewFiles, FakeLauncher.java, LaunchApp.java ]
-  - Put all the files of **_data_** folder outside of the src folder. (In main project directory)
+  - Download the zip file of the code and put all the code files/folder in _**src**_ folder. [ ClassFile, DatabaseFile, FXML_FIle, TableViewFiles, FakeLauncher.java, LaunchApp.java ]
+  - Put all the files of **_data_** folder outside of the _**src**_ folder. (In main project directory)
   - Now run the **FakeLauncher.java** or **LaunchApp.java**.
 
 If the program does not run and shows an error like following line, then update the VM option in run configuration.
