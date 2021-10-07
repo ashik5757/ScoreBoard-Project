@@ -22,9 +22,8 @@
             </DropShadow>
          </effect>
          <image>
-            <Image url="@../../whiteball.png" />
+            <Image url="file:whiteball.png" />
          </image>
       </ImageView>
    </children>
 </AnchorPane>
-
