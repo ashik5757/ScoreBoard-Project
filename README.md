@@ -40,7 +40,7 @@ This is a JavaFX application with mySql database.
 
 - ### _Tools required_ :
   - Java [JDK 8+]
-  - MySql database (XAMPP Recommended)
+  - MySql database ([XAMPP](https://www.apachefriends.org/index.html) Recommended)
 
 <br>
 
@@ -51,18 +51,18 @@ This is a JavaFX application with mySql database.
 ## Setup (IDE) :
 
 - ### _Tools required :_
-  - Java [JDK 16.0.1] or Latest 
+  - Java [JDK 16.0.1] or [Latest](https://www.oracle.com/java/technologies/downloads/)
   - IntelliJ IDEA
-  - MySql database (XAMPP Recommended)
+  - MySql database ([XAMPP](https://www.apachefriends.org/index.html) Recommended)
 
 <br>
 
 - ### _Download :_
-  - JavaFX (sdk-16 or Latest)
-  - JDBC (mysql-connector-java-8.0.26 or Latest)
-  - ControlFX (controlsfx-11.1.0 or Latest)
+  - JavaFX (sdk-16 or [Latest](https://gluonhq.com/products/javafx/))
+  - JDBC (mysql-connector-java-8.0.26 or [Latest](https://dev.mysql.com/downloads/connector/j/))
+  - ControlFX (controlsfx-11.1.0 or [Latest](https://jar-download.com/artifacts/org.controlsfx/controlsfx-samples))
 
-> All the files are available in **_Config_** folder.
+> JDBC and ControlFX files are available in [**_Config_**](https://github.com/ashik5757/ScoreBoard-Project/tree/master/config) folder.
 
 <br>
 
@@ -104,11 +104,11 @@ It is better to add VM option in run config to omit unnecessary error :
 
 <br>
   
-## Developments :
+## Developed by :
 
 - ### Md. Iftekhar Hossain Khan  [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-1] [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook-1]
 - ### Nur Adnan Chowdhury Anik [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-2] [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook-2]
-- ### Md. Ashikur Rahoman [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-3] [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook-3]
+- ### Md. Ashikur Rahman [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-3] [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook-3]
 
 
 <br>
