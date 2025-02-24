@@ -106,9 +106,10 @@ It is better to add VM option in run config to omit unnecessary error :
   
 ## Developed by :
 
-- ### Md. Iftekhar Hossain Khan  [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-1] [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook-1]
-- ### Nur Adnan Chowdhury Anik [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-2] [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook-2]
-- ### Md. Ashikur Rahman [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-3] [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook-3]
+- ### Md. Ashikur Rahman [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-3]
+- ### Nur Adnan Chowdhury Anik [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-2]
+- ### Md. Iftekhar Hossain Khan  [<img width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg">][github-1] 
+
 
 
 <br>
@@ -401,10 +402,13 @@ It is better to add VM option in run config to omit unnecessary error :
 
 
 [github-1]: https://github.com/ihkcreations
-[facebook-1]: https://www.facebook.com/ihk.786
-
 [github-2]: https://github.com/NUR01854311260
-[facebook-2]: https://www.facebook.com/nuradnanchowdhury
-
 [github-3]: https://github.com/ashik5757
-[facebook-3]: https://www.facebook.com/ashik.rahman5757/
+
+
+
+
+## LICENSE
+
+[MIT Licence](LICENSE)
+
